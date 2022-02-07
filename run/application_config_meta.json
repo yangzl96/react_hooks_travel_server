@@ -1,0 +1,374 @@
+{
+  "keys": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+  "middleware": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+  "allowHosts": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+  "interfaceLimit": {
+    "maxCount": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "time": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+  },
+  "interfaceCache": {
+    "expire": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "include": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+  },
+  "httpLog": {
+    "type": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+      "type": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "useSession": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "headerName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "queryName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "value": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "value": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "value": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+    },
+    "root": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "cache": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js"
+  },
+  "ejs": {
+    "delimiter": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "root": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "cache": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.local.js",
+    "debug": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "strict": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "dir": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "dynamic": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "session": {
+    "key": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "httpOnly": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "maxAge": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "renew": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "encrypt": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
+    "logValue": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js"
+  },
+  "auth": {
+    "exclude": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "host": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "port": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "user": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "password": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "database": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "define": {
+      "timestamps": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+      "freezeTableName": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+    },
+    "username": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-sequelize@6.0.0@egg-sequelize\\config\\config.default.js"
+  },
+  "jwt": {
+    "secret": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+    "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-jwt@3.1.7@egg-jwt\\config\\config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+      "host": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+      "password": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+      "db": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js"
+    },
+    "default": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-redis@2.4.0@egg-redis\\config\\config.default.js",
+    "app": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-redis@2.4.0@egg-redis\\config\\config.default.js",
+    "agent": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-redis@2.4.0@egg-redis\\config\\config.default.js",
+    "supportTimeCommand": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-redis@2.4.0@egg-redis\\config\\config.default.js"
+  },
+  "salt": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+  "redisExpire": "D:\\studydemo\\react-hooks-egg-server\\config\\config.default.js",
+  "helper": {
+    "shtml": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-security@2.9.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js",
+      "file": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "files": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js",
+      "disable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-multipart@2.13.1@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "validate": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-validate@2.0.2@egg-validate\\config\\config.default.js",
+  "mysql": {
+    "default": {
+      "database": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    },
+    "app": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+    "agent": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+  },
+  "env": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "name": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "cookies": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "proxy": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "version": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "description": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "private": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "dayjs": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-jwt": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-mysql": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-redis": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-scripts": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-validate": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-view-ejs": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "md5": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "mysql2": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "autod-egg": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-bin": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-ci": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "egg-mock": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "eslint": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "prod": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "stop": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "dev": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "debug": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "test": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "test-local": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "cov": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "lint": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "ci": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "autod": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "url": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "author": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "license": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "HOME": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "rundir": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "notFound": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "encoding": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "textLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "strict": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "depth": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "encoding": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "env": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "level": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "buffer": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "logging": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "port": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+      "hostname": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\studydemo\\react-hooks-egg-server\\node_modules\\_egg@2.31.0@egg\\config\\config.default.js"
+}

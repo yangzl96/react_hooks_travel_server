@@ -1,0 +1,69 @@
+2021-11-17 09:10:44,702 ERROR 12048 [admin/127.0.0.1/-/18ms POST /api/orders/addOrder] nodejs.SequelizeDatabaseError: Incorrect integer value: 'admin' for column 'userId' at row 1
+    at Query.formatError (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'admin' for column 'userId' at row 1","sql":"INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);","parameters":["admin",2,0,"2021-11-17 01:10:44"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'admin' for column 'userId' at row 1","sql":"INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);","parameters":["admin",2,0,"2021-11-17 01:10:44"]}
+sql: "INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["admin",2,0,"2021-11-17 01:10:44"]
+pid: 12048
+hostname: PC-20190909VBLF
+
+2021-11-17 09:13:12,018 ERROR 10856 [admin/127.0.0.1/-/33ms POST /api/orders/addOrder] nodejs.SequelizeDatabaseError: Incorrect integer value: 'admin' for column 'userId' at row 1
+    at Query.formatError (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'admin' for column 'userId' at row 1","sql":"INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);","parameters":["admin","2",0,"2021-11-17 01:13:12"]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE_FOR_FIELD","errno":1366,"sqlState":"HY000","sqlMessage":"Incorrect integer value: 'admin' for column 'userId' at row 1","sql":"INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);","parameters":["admin","2",0,"2021-11-17 01:13:12"]}
+sql: "INSERT INTO `orders` (`id`,`userId`,`houseId`,`isPayed`,`createTime`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["admin","2",0,"2021-11-17 01:13:12"]
+pid: 10856
+hostname: PC-20190909VBLF
+
+2021-11-17 09:14:15,764 ERROR 16060 [-/127.0.0.1/-/10ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2270:13)
+    at D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2259:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2257:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2675:19)
+    at MySQLQueryGenerator.selectQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:1326:28)
+    at MySQLQueryInterface.select (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-interface.js:954:27)
+    at Function.findAll (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1752:47)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Function.findOne (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1916:12)
+
+pid: 16060
+hostname: PC-20190909VBLF
+
+2021-11-17 09:14:20,154 ERROR 16060 [-/127.0.0.1/-/32ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2270:13)
+    at D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2259:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2257:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2675:19)
+    at MySQLQueryGenerator.selectQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:1326:28)
+    at MySQLQueryInterface.select (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-interface.js:954:27)
+    at Function.findAll (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1752:47)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Function.findOne (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1916:12)
+
+pid: 16060
+hostname: PC-20190909VBLF
+
+2021-11-17 09:15:05,210 ERROR 16060 [-/127.0.0.1/-/20ms POST /api/orders/hasOrder] nodejs.Error: WHERE parameter "userId" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2270:13)
+    at D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2259:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2257:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:2675:19)
+    at MySQLQueryGenerator.selectQuery (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-generator.js:1326:28)
+    at MySQLQueryInterface.select (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\dialects\abstract\query-interface.js:954:27)
+    at Function.findAll (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1752:47)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async Function.findOne (D:\studydemo\react-hooks-egg-server\node_modules\_sequelize@6.9.0@sequelize\lib\model.js:1916:12)
+
+pid: 16060
+hostname: PC-20190909VBLF
+
